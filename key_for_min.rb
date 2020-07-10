@@ -11,7 +11,7 @@ def key_for_min_value(name_hash)
       num = min_value
       item = min_item
 # binding.pry
-    elsif num < min_value
+    elsif num <= min_value
       num = min_value
       item = min_item
     end
